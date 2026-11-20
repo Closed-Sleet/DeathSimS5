@@ -1,0 +1,508 @@
+{
+  "entities": [
+    {
+      "entity": "minecraft:wither",
+      "always_elite": true
+    },
+    {
+      "entity": "minecraft:ender_dragon",
+      "always_elite": true
+    },
+    {
+      "entity": "minecraft:elder_guardian",
+      "always_elite": true
+    },
+    {
+      "entity": "minecraft:warden",
+      "always_elite": true
+    },
+    {
+      "entity": "mowziesmobs:umvuthi",
+      "always_elite": true
+    },
+    {
+      "entity": "mowziesmobs:ferrous_wroughtnaut",
+      "always_elite": true
+    },
+    {
+      "entity": "mowziesmobs:frostmaw",
+      "always_elite": true
+    },
+    {
+      "entity": "irons_spellbooks:dead_king",
+      "always_elite": true
+    },
+    {
+      "entity": "irons_spellbooks:necromancer",
+      "always_elite": true
+    },
+    {
+      "entity": "block_factorys_bosses:yeti",
+      "always_elite": true
+    },
+    {
+      "entity": "block_factorys_bosses:sandworm",
+      "always_elite": true
+    },
+    {
+      "entity": "block_factorys_bosses:infernal_dragon",
+      "always_elite": true
+    },
+    {
+      "entity": "block_factorys_bosses:underworld_knight",
+      "always_elite": true
+    },
+    {
+      "entity": "dungeons_and_combat:kamath",
+      "always_elite": true
+    },
+    {
+      "entity": "dungeons_and_combat:sunleia",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:ancient_remnant",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:ender_golem",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:ender_guardian",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:ignis",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:maledictus",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:netherite_monstrosity",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:scylla",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:the_harbinger",
+      "always_elite": true
+    },
+    {
+      "entity": "cataclysm:the_leviathan",
+      "always_elite": true
+    },
+    {
+      "entity": "aquamirae:captain_cornelia",
+      "always_elite": true
+    },
+    {
+      "entity": "terramity:gob",
+      "always_elite": true
+    },
+    {
+      "entity": "terramity:gundalf",
+      "always_elite": true
+    },
+    {
+      "entity": "terramity:super_sniffer",
+      "always_elite": true
+    },
+    {
+      "entity": "terramity:trial_guardian",
+      "always_elite": true
+    },
+    {
+      "entity": "terramity:ultra_sniffer",
+      "always_elite": true
+    },
+    {
+      "entity": "terramity:virtue",
+      "always_elite": true
+    },
+    {
+      "entity": "bosses_of_mass_destruction:void_blossom",
+      "always_elite": true
+    },
+    {
+      "entity": "bosses_of_mass_destruction:lich",
+      "always_elite": true
+    },
+    {
+      "entity": "bosses_of_mass_destruction:obsidilith",
+      "always_elite": true
+    },
+    {
+      "entity": "bosses_of_mass_destruction:gauntlet",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:naga",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:lich",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:minoshroom",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:hydra",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:knight_phantom",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:ur_ghast",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:alpha_yeti",
+      "always_elite": true
+    },
+    {
+      "entity": "twilightforest:snow_queen",
+      "always_elite": true
+    },
+    {
+      "entity": "alexsmobs:void_worm",
+      "always_elite": true
+    },
+    {
+      "entity": "aether:valkyrie_queen",
+      "always_elite": true
+    },
+    {
+      "entity": "aether:slider",
+      "always_elite": true
+    },
+    {
+      "entity": "aether:sun_spirit",
+      "always_elite": true
+    },
+    {
+      "entity": "lost_aether_content:aerwhale_king",
+      "always_elite": true
+    },
+    {
+      "entity": "blue_skies:summoner",
+      "always_elite": true
+    },
+    {
+      "entity": "blue_skies:alchemist",
+      "always_elite": true
+    },
+    {
+      "entity": "meetyourfight:swampjaw",
+      "always_elite": true
+    },
+    {
+      "entity": "meetyourfight:bellringer",
+      "always_elite": true
+    },
+    {
+      "entity": "meetyourfight:dame_fortuna",
+      "always_elite": true
+    },
+    {
+      "entity": "meetyourfight:rosalyne",
+      "always_elite": true
+    },
+    {
+      "entity": "eeeabsmobs:nameless_guardian",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:king_of_scorchers",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:the_watcher",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:ancient_entity",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:hive_queen",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:quadro",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:lady_luna",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:wreck",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:raglok",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:reyvor",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:karot",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:vamacheron",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:soul_fiend",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:twilight_demon",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:parasecta",
+      "always_elite": true
+    },
+    {
+      "entity": "divinerpg:dramix",
+      "always_elite": true
+    },
+    {
+      "entity": "alexscaves:luxtructosaurus",
+      "always_elite": true
+    },
+    {
+      "entity": "alexscaves:forsaken",
+      "always_elite": true
+    },
+    {
+      "entity": "alexscaves:tremorsaurus",
+      "always_elite": true
+    },
+    {
+      "entity": "alexscaves:magnetron",
+      "always_elite": true
+    },
+    {
+      "entity": "alexscaves:hullbreaker",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:draugr_boss",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:moonknight",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:chaos_monarch",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:day_stalker",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:night_prowler",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:night_shade",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:returning_knight",
+      "always_elite": true
+    },
+    {
+      "entity": "soulsweapons:accursed_lord_boss",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:sacilic_abomination",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:scarlant_queen",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:thunderbird",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:varmint_king",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:pyre",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:thrasher",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:terrorflora",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:timewelder",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:astralis",
+      "always_elite": true
+    },
+    {
+      "entity": "foolish:wendigrudge",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:overgrown_colossus",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:dune_sentinel",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:posessed_paladin",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:frostbitten_golem",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:ancient_guardian",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:cloud_golem",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:withered_abomination",
+      "always_elite": true
+    },
+    {
+      "entity": "wraithon:wraithon",
+      "always_elite": true
+    },
+    {
+      "entity": "call_of_yucutan:kukulkan",
+      "always_elite": true
+    },
+    {
+      "entity": "call_of_yucutan:ah_puch",
+      "always_elite": true
+    },
+    {
+      "entity": "companions:sacred_pontiff",
+      "always_elite": true
+    },
+    {
+      "entity": "knightquest:netherman",
+      "always_elite": true
+    },
+    {
+      "entity": "monsterexpansion:rakoth",
+      "always_elite": true
+    },
+    {
+      "entity": "monsterexpansion:leivekilth",
+      "always_elite": true
+    },
+    {
+      "entity": "monsterexpansion:rhyza",
+      "always_elite": true
+    },
+    {
+      "entity": "monsterexpansion:skrythe",
+      "always_elite": true
+    },
+    {
+      "entity": "terra_entity:skeletron",
+      "always_elite": true
+    },
+    {
+      "entity": "terra_entity:queen_bee",
+      "always_elite": true
+    },
+    {
+      "entity": "terra_entity:brain_of_cthulhu",
+      "always_elite": true
+    },
+    {
+      "entity": "terra_entity:eater_of_worlds",
+      "always_elite": true
+    },
+    {
+      "entity": "terra_entity:eye_of_cthulhu",
+      "always_elite": true
+    },
+    {
+      "entity": "terra_entity:king_slime",
+      "always_elite": true
+    },
+    {
+      "entity": "conjurer_illager:conjurer",
+      "always_elite": true
+    },
+    {
+      "entity": "stalwart_dungeons:nether_keeper",
+      "always_elite": true
+    },
+    {
+      "entity": "stalwart_dungeons:awful_ghast",
+      "always_elite": true
+    },
+    {
+      "entity": "stalwart_dungeons:shelterer",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:annihilation_pursuer",
+      "always_elite": true
+    },
+    {
+      "entity": "legendary_monsters:the_obliterator",
+      "always_elite": true
+    },
+    {
+      "entity": "minecraft:zombie",
+      "always_elite": false
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "always_elite": false
+    },
+    {
+      "entity": "minecraft:spider",
+      "always_elite": false
+    },
+    {
+      "entity": "minecraft:enderman",
+      "always_elite": false
+    },
+    {
+      "entity": "minecraft:piglin_brute",
+      "always_elite": false
+    }
+  ]
+}

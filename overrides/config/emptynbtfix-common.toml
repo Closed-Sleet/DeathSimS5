@@ -1,0 +1,53 @@
+#
+#Some mods leave an invisible, empty bit of NBT data on items (it shows up as {}).
+#NBT is the hidden extra data an item can carry.
+#Two items that look the same then refuse to stack.
+#true = remove that empty data so they stack again. false = leave it alone.
+#
+stripEmptyTags = true
+#
+#===============EXCLUSIONS===============
+#Items that stripEmptyTags should skip. The Create mod's items are here by default, because
+#Create uses item NBT a lot, and removing it can break some of its screens (like the filters).
+#
+#Ways to write an entry:
+#  "minecraft:diamond"   one item. To see an item's id, press F3+H in game and hover over it.
+#  "#minecraft:logs"     an item tag: a group of items, here every kind of log
+#  "@create"             every item from one mod
+#  "!@minecraft"         ! means "everything EXCEPT". This skips everything except vanilla items,
+#                        so only vanilla items get cleaned.
+#
+#Separate exclusion entries are checked individually, and an item is skipped if ANY entry matches it.
+#e.g. in exclusions = ["@create", "!@minecraft"], "@create" does nothing: "!@minecraft" already
+#skips every non-vanilla item (Create's included), so only vanilla items get cleaned.
+#
+exclusions = ["@create"]
+#
+#=================RULES=================
+#Optional, for advanced use. Most players can leave this empty.
+#A rule removes one NBT key from items. Hold an item and run
+#/emptynbtfix inspect to see its keys.
+#
+#Type the key first, then (optionally) which items, using the same entries as exclusions.
+#"Junk" below stands for whatever key you want removed:
+#  "Junk"                      remove Junk from every item
+#  "Junk minecraft:bundle"     ...only from bundles
+#  "Junk #minecraft:logs"      ...only from logs
+#  "Junk @tensura"             ...only from Tensura items
+#  "Junk !minecraft:bundle"    ...from every item except bundles
+#If that leaves an item with empty NBT, the empty NBT is removed too (unless the item is excluded).
+#Rules don't cancel each other out. If two rules remove the same key, either one can remove it.
+#
+rules = []
+#
+#===============COMMANDS===============
+#Who can use the /emptynbtfix commands. They change this file for the whole server,
+#so only trusted players should have them. This can only be changed here, not with a command.
+#Uses Minecraft's operator levels (set per player in ops.json):
+#  4 = server owners only (default)   3 = admins   2 = game masters   1 = moderators   0 = everyone
+#In singleplayer, the host has level 4 when cheats are on.
+#Takes effect right away. Players may need to rejoin before tab-completion matches.
+#
+#Range: 0 ~ 4
+commandPermissionLevel = 4
+

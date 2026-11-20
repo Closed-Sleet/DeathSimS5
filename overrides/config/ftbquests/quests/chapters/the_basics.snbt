@@ -1,0 +1,454 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_basics"
+	group: "2CD6FBB47A437687"
+	id: "41979B1C285248D7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["What else would you do at the start of minecraft? go punch a tree"]
+			id: "0C366513E91C5BF7"
+			rewards: [
+				{
+					id: "357D3EF8CDDAEA76"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "339399975DCCE68C"
+					item: "athens_coins:bronze_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Getting wood ;3"
+			tasks: [{
+				consume_items: false
+				count: 5L
+				id: "6092459168D7B278"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				match_nbt: true
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Go punch a tree"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C366513E91C5BF7"]
+			description: ["Most people make stone tools still right? "]
+			hide_until_deps_complete: true
+			id: "63B134A837884D31"
+			rewards: [
+				{
+					id: "506E2334DFFC1E7C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5C67013FDD116AAA"
+					item: "athens_coins:bronze_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Next thing is stone tools"
+			tasks: [{
+				id: "11AC5E54D2FB045D"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Stone braker"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"63B134A837884D31"
+				"2C777B6D02ABEF14"
+			]
+			description: ["got you some iron now huh? go getcga some diamonds"]
+			hide_until_deps_complete: true
+			id: "19B17A7A70C56839"
+			rewards: [
+				{
+					count: 3
+					id: "6080B85E0A096C78"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "400F68EED57F3679"
+					item: "athens_coins:bronze_coin"
+					type: "item"
+				}
+			]
+			subtitle: "I ran for diamonds"
+			tasks: [{
+				id: "054DBEC66532AF20"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63B134A837884D31"]
+			hide_until_deps_complete: true
+			id: "2C777B6D02ABEF14"
+			rewards: [
+				{
+					id: "14CD18032314C43F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "13BE3C30FF62E000"
+					item: "athens_coins:bronze_coin"
+					type: "item"
+				}
+			]
+			subtitle: "every one needs a little warmth"
+			tasks: [{
+				id: "3A43CB53C67938EE"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Basic smelting"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C777B6D02ABEF14"]
+			hide_until_deps_complete: true
+			id: "521ED7FFF707037F"
+			rewards: [
+				{
+					id: "7E13D31F1A3802B8"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "31D6F7094B814B48"
+					item: "athens_coins:bronze_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3570D7954DE87D43"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			title: "Getting better? eh"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["521ED7FFF707037F"]
+			hide_until_deps_complete: true
+			id: "7DBA76ED85C98B15"
+			rewards: [
+				{
+					id: "6E91A2CDE4096B36"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 2
+					id: "3B8F29ADEE557355"
+					item: "athens_coins:bronze_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18B739F87AAA2502"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			title: "Oooo iron furnace~"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7DBA76ED85C98B15"]
+			hide_until_deps_complete: true
+			id: "5D3AE74C49EF616F"
+			rewards: [
+				{
+					id: "508E1B818FBE1EA1"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 5
+					id: "70A2DF6D9639B6BD"
+					item: "athens_coins:bronze_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Is this a bad refrance orr??"
+			tasks: [{
+				id: "0D5E1051F2B0B8DD"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "Butter furnace"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D3AE74C49EF616F"]
+			hide_until_deps_complete: true
+			id: "1F630DB70FFE99E8"
+			rewards: [{
+				id: "4233C832ECA8EA45"
+				item: "athens_coins:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Finaly you got a good furnace"
+			tasks: [{
+				consume_items: false
+				id: "02A57888A6CEA54B"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			title: "Shiny shiny smelter"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1F630DB70FFE99E8"]
+			hide_until_deps_complete: true
+			id: "58DADCA7DE19E3F2"
+			rewards: [{
+				id: "08DF7A2CCCA38B1E"
+				item: "athens_coins:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Dont lie how much trading did you do to get this"
+			tasks: [{
+				id: "4923AF04433878E5"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			title: "Villagers are envyiose of you"
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F630DB70FFE99E8"]
+			hide_until_deps_complete: true
+			id: "4D97013C26DAE4F9"
+			subtitle: "Ok how the hell dose this one work?"
+			tasks: [{
+				id: "0A6B914778ECDF0A"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			title: "See through??"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"58DADCA7DE19E3F2"
+				"4D97013C26DAE4F9"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "42D3AAF631300B9B"
+			rewards: [{
+				id: "313C9FDA1C43790C"
+				item: "athens_coins:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Congrats you made the \"final\" furnace"
+			tasks: [{
+				id: "095F045A45925932"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			title: "Now THIS is a furnace"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19B17A7A70C56839"]
+			hide_until_deps_complete: true
+			id: "425A8CA4E00D2D18"
+			rewards: [{
+				id: "67EC61E6D54B9B3B"
+				item: "athens_coins:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Congrats you found a \"good\" diamond"
+			tasks: [{
+				id: "3E10AEAFB1055533"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "You lucky mf"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["425A8CA4E00D2D18"]
+			hide_until_deps_complete: true
+			id: "06D057CC2EFC944C"
+			rewards: [{
+				id: "74D3BEE252C02A43"
+				item: "athens_coins:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Time to got to hell freinds~"
+			tasks: [{
+				count: 10L
+				id: "2D6610529F09939F"
+				item: { Count: 10, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			title: "Neather trip yayyyy"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19B17A7A70C56839"]
+			description: ["in this pacck theres a few diffrent items and structters i encurage you to explore if you dare that is ;3"]
+			hide_until_deps_complete: true
+			id: "4168CA760BFA11CF"
+			rewards: [{
+				count: 3
+				id: "38935F48454AACFB"
+				item: "athens_coins:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "items galore ;)"
+			tasks: [{
+				id: "65CC6B9622BB0E77"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "storage maybe an issue"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19B17A7A70C56839"]
+			description: ["Go have fun in the blood magics chapter"]
+			hide_until_deps_complete: true
+			id: "78F33AFD119457E0"
+			rewards: [{
+				id: "158F6116147B0D55"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			subtitle: "Dirty dirty magics"
+			tasks: [{
+				id: "2BACDB986C8413AC"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Oooo getting into dark arts huh?"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["06D057CC2EFC944C"]
+			hide_until_deps_complete: true
+			id: "4DA27F2AB15C51AE"
+			rewards: [
+				{
+					count: 3
+					id: "2AC46EDEA39D2121"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "560E638314DBF841"
+					item: "athens_coins:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "0DA72D91D35E545C"
+				type: "dimension"
+			}]
+			title: "Have a good time in hell~"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			id: "62C0E333FD87C241"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "260453EC5C17DDE2"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			subtitle: "Im sure these are safe to eat ;3"
+			tasks: [{
+				id: "4DB2415A08C62A35"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			title: "Magic berrys?"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "0F22498A2759024B"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "44E5496BA117045E"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			subtitle: "your telling me you would rather sit at a table then use blood for magic??"
+			tasks: [{
+				id: "33BB79416E2F1ED7"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Path of the schollar"
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+	title: "The basics"
+}

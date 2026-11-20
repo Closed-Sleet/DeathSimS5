@@ -1,0 +1,6 @@
+{
+  "intervalSeconds": 600,
+  "warningSeconds": 10,
+  "broadcastMessages": true,
+  "whitelist": []
+}

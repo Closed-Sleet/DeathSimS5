@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hells_kinda_diffrent"
+	group: "2CD6FBB47A437687"
+	id: "74B8256B05901B4E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["4DA27F2AB15C51AE"]
+		description: ["Welp you made it this far are you readu for a dificulty spike?"]
+		id: "11019B7EAE425793"
+		rewards: [{
+			id: "76F4870813C3C857"
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			type: "item"
+		}]
+		subtitle: "Welcome to Hell"
+		tasks: [{
+			dimension: "minecraft:the_nether"
+			id: "1B0049198320E2F6"
+			title: "Enter the neather"
+			type: "dimension"
+		}]
+		title: "The neather"
+		x: 2.0d
+		y: -0.5d
+	}]
+	title: "Hells kinda diffrent"
+}

@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_spells"
+	group: "15A6C96DD5761069"
+	id: "21C6AAA7CFF70D0F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F22498A2759024B"]
+			hide_until_deps_complete: true
+			id: "026F5BF58A6539E7"
+			rewards: [{
+				id: "3F847114723F5614"
+				item: "athens_coins:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Basic mf"
+			tasks: [{
+				id: "6B08269A382566C1"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			title: "I guess your gonna write alot huh"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["026F5BF58A6539E7"]
+			hide_until_deps_complete: true
+			id: "4E0482455346644A"
+			rewards: [{
+				id: "20066830DB653993"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:magic_missile"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Basic spellbook for a basic bitch"
+			tasks: [{
+				id: "10C26C640C64B657"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Gotta start some where right?"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["026F5BF58A6539E7"]
+			hide_until_deps_complete: true
+			id: "707BFD0F47166E2E"
+			tasks: [{
+				id: "4FC07D51EE89403B"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["707BFD0F47166E2E"]
+			hide_until_deps_complete: true
+			id: "45750A5AA813E1BA"
+			tasks: [{
+				id: "4808B6F2B6CCD7E9"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45750A5AA813E1BA"]
+			hide_until_deps_complete: true
+			id: "18E65880EB12EB98"
+			tasks: [{
+				id: "6F4BDB5F1A40C834"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18E65880EB12EB98"]
+			hide_until_deps_complete: true
+			id: "594343B24766D7E1"
+			tasks: [{
+				id: "048B80437920476A"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+	]
+	title: "Iron spells"
+}

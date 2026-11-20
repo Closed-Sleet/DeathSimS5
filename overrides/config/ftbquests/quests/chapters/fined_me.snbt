@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fined_me"
+	group: "637A59B145ED5127"
+	id: "4CC03EBAE71CFC4D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Too bad i really dont like sand,,, it gets every where"]
+		id: "3FFE7F6B4120B996"
+		invisible: true
+		subtitle: "Ooo one of the temples!"
+		tasks: [{
+			id: "007BE8D943D7381B"
+			structure: "betterdeserttemples:desert_temple"
+			title: "sandy temple"
+			type: "structure"
+		}]
+		title: "Find a desert temple"
+		x: 1.0d
+		y: 0.0d
+	}]
+	title: "Fined me!"
+}

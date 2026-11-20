@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "15A6C96DD5761069"
+	id: "4723AE28330986C1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["2BACDB986C8413AC"]
+		hide_until_deps_complete: true
+		id: "339F7F0A0B322906"
+		rewards: [{
+			id: "1491EFCB45AD3177"
+			item: "irons_spellbooks:blood_vial"
+			type: "item"
+		}]
+		tasks: [{
+			id: "1E590C2A38B02533"
+			item: "bloodmagic:altar"
+			type: "item"
+		}]
+		title: "The start of something quite red"
+		x: 0.5d
+		y: -2.0d
+	}]
+	title: "Blood magic"
+}

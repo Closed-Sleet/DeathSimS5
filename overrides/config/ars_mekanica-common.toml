@@ -1,0 +1,21 @@
+
+[source_dynamo]
+	#Forge Energy produced per 1 Source consumed
+	#Range: 1 ~ 1000000
+	sourceToFE = 16
+	#Source drawn and converted per tick (controls drain speed and FE output)
+	#Range: 1 ~ 1000000
+	sourcePerTick = 20
+	#Internal Forge Energy buffer
+	#Range: > 1000
+	energyCapacity = 64000
+	#Maximum Forge Energy sent per side per tick
+	#Range: > 1
+	maxTransfer = 2000
+	#Internal Source buffer
+	#Range: 100 ~ 10000000
+	sourceCapacity = 10000
+	#Block range to pull Source from nearby jars
+	#Range: 1 ~ 16
+	pullRange = 5
+

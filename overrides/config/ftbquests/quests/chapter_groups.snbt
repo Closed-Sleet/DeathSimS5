@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "2CD6FBB47A437687", title: "Starting off" }
+		{ id: "15A6C96DD5761069", title: "The magics" }
+		{ id: "637A59B145ED5127", title: "Exploration" }
+		{ id: "18F7F7E681BC550E", title: "The bosses" }
+		{ id: "2134C3C9BB9CC06F", title: "Technical" }
+		{ id: "4406217DB4C0D6E7", title: "You just keep dieing dont you?" }
+	]
+}

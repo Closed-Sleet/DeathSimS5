@@ -1,0 +1,252 @@
+
+[swamp_mine]
+	#In ticks (20 ticks is 1 second)
+	swamp_mine_cooldown = 600.0
+	#Percent (in decimal) of health required to activate. (0.1 is 10%)
+	swamp_mine_healththreshhold = 0.5
+	#The damage the explosion deals
+	swamp_mine_damage = 15.0
+
+[accursed_bell]
+	#In ticks (20 ticks is 1 second)
+	accursed_bell_cooldown = 600.0
+	#accursed_bell_effectduration the length of the bell effect
+	accursed_bell_effectduration = 300.0
+	#The radii of the radius the bell affects (14 is 7 blocks in every direction)
+	accursed_bell_radius = 24.0
+
+[broken_blade_of_dusk]
+	#Chance to apply Shatter in percentage decimal (0.1 is 10%)
+	broken_blade_of_dusk_chance = 1.0
+	#Radii of the shatter effect damage (10 is 5 blocks in every direction)
+	broken_blade_of_dusk_radius = 8.0
+	#Damage that shatter effect deals
+	broken_blade_of_dusk_damage = 5.0
+	#Duration shatter lasts for in ticks
+	broken_blade_of_dusk_duration = 50.0
+
+[super_generic_dice]
+	#In ticks (20 ticks is 1 second)
+	super_generic_dice_cooldown = 250.0
+	#The lenght of the effects applied in ticks
+	super_generic_dice_effectduration = 250.0
+
+[withered_cage]
+	#The effect level of Regeneration applied. The number here is one value less than the level applied (0.5 is level 1, 1 is level 2)
+	withered_cage_effectamplifier = 1.0
+	#The effect duration in ticks 
+	withered_cage_effectduration = 100.0
+	#In ticks (20 ticks is 1 second)
+	withered_cagee_cooldown = 600.0
+
+[extendo_claw]
+	#In ticks (20 ticks is 1 second)
+	extendo_claw_cooldown = 400.0
+	#How much damage the impact deals
+	extendo_claw_damage = 5.0
+	#How much would-be fall damage is required to activate the slam
+	extendo_claw_threshhold = 4.0
+	#The radii of the slam in blocks (10 is 5 blocks in every direction)
+	extendo_claw_radius = 8.0
+	#How high the claw launches the player in y-value (2 is about 15 blocks high)
+	extendo_claw_height = 2.0
+
+[bonsai_buddy]
+	#The potion level of poison applied (0.5 is 1, 1 is 2, etc)
+	bonsai_buddy_effectamplifier = 0.5
+	#The length of the potion effect in ticks
+	bonsai_buddy_effectduration = 80.0
+	#The percentage to feed the player in decimal (0.1 is 10%)
+	bonsai_buddy_feedchance = 0.25
+	#The amount of food that is fed to the player (2 is 1 full food level)
+	bonsai_buddy_food = 2.0
+	#The saturation level applied to the player alongside the food
+	bonsai_buddy_saturation = 1.0
+	#Damage taken multiplier for affected entities 
+	bonsai_buddy_damagemult = 1.5
+
+[champion_skull]
+	#In ticks (20 ticks is 1 second)
+	champion_skull_cooldown = 1200.0
+	#The length in ticks of the effects applied
+	champion_skull_effectduration = 200.0
+	#The potion level of the effects applied (0.5 is 1, 1 is 2, etc)
+	champion_skull_effectamplifier = 0.5
+	#The radii of the effect in blocks (10 is 5 blocks in every direction)
+	champion_skull_radius = 10.0
+	#The damage multiplier of the vulnerable effect
+	vulnerable_multiplier = 1.25
+
+[core_of_obliteration]
+	#The duration of the effects applied in ticks
+	core_of_obliteration_effectduration = 300.0
+	#The amplifier of effects applied, added to current
+	core_of_obliteration_effectamplifier = 1.0
+
+[possessed_emblem]
+	#The percentage in decimal form of damage reduction given
+	possessed_emblem_reduction = 0.2
+
+[ferrous_plating]
+	#Percent increase in decimals of Armor
+	ferrous_plating_armor = 0.2
+	#Percent increase in decimals of Armor Toughness
+	ferrous_plating_toughness = 0.2
+
+[sunfeather_crown]
+	#In ticks
+	sunfeather_crown_cooldown = 600.0
+	#Effect amplifier (0.5 is 1, 1 is 2, etc)
+	sunfeather_crown_effectamplifier = 1.0
+	#Effect duration in ticks
+	sunfeather_crown_effectduration = 400.0
+
+[terra_chi_necklace]
+	#Step height addition in blocks
+	terra_chi_necklace_stepheight = 3.0
+	#Percentage in decimal of increase
+	terra_chi_necklace_speed = 0.15
+
+[eternal_snowflake]
+	#Cooldown in ticks
+	eternal_snowflake_cooldown = 500.0
+	#Duration in ticks of slowness
+	eternal_snowflake_effectduration = 160.0
+	#Amplifier of slowness 
+	eternal_snowflake_effectamplifier = 2.0
+	#Damage dealt
+	eternal_snowflake_damage = 5.0
+	#Radii in blocks (10 is 5 blocks in each direction)
+	eternal_snowflake_radius = 10.0
+
+[frozen_heart]
+	#The number the attacker receives back in percentage (decimal form)
+	frozen_heart_damage = 0.2
+	#The max damage the attacker can receive in return
+	frozen_heart_damagecap = 50.0
+
+[thuum_pendant]
+	thuum_pendant_cooldown = 0.15
+	#Effect duration in ticks
+	thuum_pendant_effectduration = 300.0
+	#Effect amplifier (0.5 is 1, 1 is 2, etc)
+	thuum_pendant_effectamplifier = 0.5
+	#Cooldown in ticks
+	thuum_pendant_ccooldown = 900.0
+
+[monstrous_boot]
+	#Cooldown in ticks
+	monstrous_boot_cooldown = 400.0
+	#Damage the slam deals (not including lasting fire)
+	monstrous_boot_damage = 15.0
+
+[gills_of_the_void]
+	#Multiplicative amount of swim speed (but a bit different, 2 is 100% increase, 1.2 is 20%, etc)
+	gills_of_the_void_swimspeed = 2.0
+	#Additive amount of block reach
+	gills_of_the_void_blockreach = 1.0
+	#Additive amount of entity reach
+	gills_of_the_void_entityreach = 1.0
+
+[benthic_anchor]
+	#Cooldown in ticks
+	benthic_anchor_cooldown = 1200.0
+	#Damage of the summons
+	benthic_anchor_summondamage = 15.0
+	#Duration of summon in ticks
+	benthic_anchor_summonduration = 400.0
+
+[apocalyptic_mechanism]
+	#Cooldown in ticks
+	apocalyptic_mechanism_cooldown = 900.0
+	#Damage each burst does
+	apocalyptic_mechanism_damage = 6.0
+	#Radii in blocks, so 10 radius is 5 blocks in every direction
+	apocalyptic_mechanism_radius = 9.0
+	#Duration of speed increase (jn ticks) per mob hit
+	apocalyptic_mechanism_durationincrease = 20.0
+	#Duration of wither applied to mobs in ticks
+	apocalyptic_mechanism_effectduration = 160.0
+	#Number of times the  burst is repeated
+	apocalyptic_mechanism_repeat = 5.0
+
+[ignitium_heirloom]
+	#The damage multiplier as a number (1.2 is 20% increase)
+	ignitium_heirloom_damagebonus = 1.2
+	ignitium_heirloom_positiveffectduration = 100.0
+	ignitium_heirloom_positiveffectamplifier = 1.0
+	#Negative effect duration in ticks
+	ignitium_heirloom_negativeeffectduration = 120.0
+	#Negative effect amplifier
+	ignitium_heirloom_negativeeffectamplifier = 1.0
+	#The percentage increase (in decimal) of speed and attack speed for the Enflamed Vigor effect
+	enflamed_vigor_bonus = 0.2
+	#The percentage of armor decrease from the Ignited Meld effect (must be negative to be a decrease)
+	ignited_meld_bonus = -0.2
+
+[cursed_ribcage]
+	#Cooldown of the passive ability in ticks
+	cursed_ribcage_cooldown = 6000.0
+	#Cooldown of the active ability in ticks
+	cursed_ribcage_activecooldown = 1200.0
+	#Effect duration in ticks
+	cursed_ribcage_effectduration = 200.0
+	#The damage increase while having Spectral Savior Buff (1 would be normal damage, 2 is double damage)
+	cursed_ribcage_damage = 2.5
+
+[prismarine_sigil]
+	#Cooldown in ticks
+	prismarine_sigil_cooldown = 1200.0
+	#Damage reduction in percent decimal form of Prismarine Protection effect
+	prismarine_sigil_damagereduction = 0.2
+	#The duration of the effect in ticks
+	prismarine_sigil_effectduration = 300.0
+	#The movement speed reduction in percent decimal form (must be negative)
+	prismarine_sigil_movementspeed = -0.35
+	#The swim speed increase in percent decimal form plus one (1.5 is 50% increase, 2 is 100%, etc)
+	prismarine_sigil_swimspeed = 1.5
+	#Amplifier of effect (0.5 is 1, 1 is 2, etc)
+	prismarine_sigil_effectamplifier = 0.5
+
+[wicked_encasement]
+	#Cooldown in ticks
+	wicked_encasement_cooldown = 3600.0
+	#Damage reduction in percent decimal form per level
+	wicked_encasement_damagereduction = 0.05
+	#Health reduction in percent decimal form per level (must be negative)
+	wicked_encasement_healthreduction = -0.1
+
+[eye_of_the_sandstorm]
+	#Cooldown in ticks
+	eye_of_the_sandstorm_cooldown = 600.0
+	#Defense bonus in percentage decimal form
+	fossilstance_defensebonus = 1.0
+	#Block reach bonus in blocks (additive)
+	fossilstance_blockreach = 1.5
+	#Damage down in percentage decimal form (must be negative)
+	fossilstance_damagedown = -0.9
+	#Damage dealt per instance of sandstorm (this pierces armor)
+	fossilstance_damage = 5.0
+	#Damage bonus in percent decimal form
+	regalstance_damagebonus = 0.6
+	#Attack Speed bonus is percent decimal form
+	regalstance_atkspeedbonus = 0.15
+	#Entity Reach bonus in blocks(additive)
+	regalstance_entityreach = 1.5
+	#Defense down in percent decimal form (must be negative)
+	regalstance_defensedown = -1.0
+	#Radius of the sandstorm instance in blocks
+	fossilstance_radius = 7.0
+
+[ender_gauntlet]
+	#Cooldown in ticks
+	ender_gauntlet_cooldown = 600.0
+	#Damage Ender Fissure deals
+	ender_fissure_damage = 12.0
+	#Effect duration applied in ticks
+	ender_gauntlet_effectduration = 100.0
+	#The radius in blocks of the effect
+	ender_gauntlet_radius = 10.0
+	#Percent decimal form of speed down (must be negative)
+	ender_fissure_speeddown = -0.5
+

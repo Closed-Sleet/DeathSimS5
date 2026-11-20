@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "corail_tombstone"
+	group: "4406217DB4C0D6E7"
+	id: "098E943980C00FC7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Well well well it seems youve had your first death!.. im just gonna be up front with you now this wont be your last death.. not even close to be frank. with the mobs bosses and diamentions in this pack your going to die.. alot. alot alot.."
+				""
+				"so we have a grave system that will help you quite abit and \"im\" going to help yopu through it! just be warned you will die quite abit more if you choose to persue the path of the dead and gain knolage of death."
+			]
+			icon: "tombstone:essence_of_undeath"
+			id: "71DE7E43788141BD"
+			invisible: true
+			rewards: [{
+				id: "74E06106749A166E"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
+			subtitle: "Congrants you died"
+			tasks: [{
+				id: "261E40C3300FB6BC"
+				stat: "minecraft:deaths"
+				title: "Die!"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "668DD4D4C8E16417"
+			invisible: true
+			subtitle: "i told you so"
+			tasks: [{
+				id: "3ADDD0BD6AA8C3FE"
+				stat: "minecraft:deaths"
+				title: "Die again!"
+				type: "stat"
+				value: 10
+			}]
+			title: "Welcome to death sim!"
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "Corail tombstone"
+}

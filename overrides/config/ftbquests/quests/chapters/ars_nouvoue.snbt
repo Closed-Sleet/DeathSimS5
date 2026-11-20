@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouvoue"
+	group: "15A6C96DD5761069"
+	id: "16310B12EFB4000B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["62C0E333FD87C241"]
+		hide_until_deps_complete: true
+		id: "235E6327A8C20BD5"
+		rewards: [{
+			count: 5
+			id: "658472BD9A6CCA87"
+			item: "ars_nouveau:sourceberry_bush"
+			type: "item"
+		}]
+		tasks: [{
+			id: "3C7E81BA38F1D597"
+			item: "ars_nouveau:sourceberry_bush"
+			type: "item"
+		}]
+		title: "You ate the berry dident you~"
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "Ars Nouvoue"
+}

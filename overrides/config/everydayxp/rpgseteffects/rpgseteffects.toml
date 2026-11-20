@@ -1,0 +1,24 @@
+
+[gui]
+	#Show the 'Sets' button in the inventory screen.
+	showInventoryButton = true
+
+[elite_mobs]
+	#Display boss bar for elite mobs on screen.
+	showBossBar = false
+	#List of entity IDs that can never become elite.
+	mobBlacklist = ["minecraft:creeper", "minecraft:slime", "minecraft:magma_cube", "minecraft:phantom", "minecraft:ghast"]
+	#Chance for elite tier 1 (Elite).
+	#Range: 0.0 ~ 1.0
+	chanceTier1 = 0.1
+	#Chance for elite tier 2 (Captain).
+	#Range: 0.0 ~ 1.0
+	chanceTier2 = 0.09
+	#Chance for elite tier 3 (Commander).
+	#Range: 0.0 ~ 1.0
+	chanceTier3 = 0.07
+	#Cooldown in SECONDS between elite spawns in the same chunk.
+	#Set to 0 to disable cooldown.
+	#Range: 0 ~ 3600
+	cooldownSeconds = 90
+
